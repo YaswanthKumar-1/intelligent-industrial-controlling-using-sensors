@@ -1,10 +1,13 @@
 Overview
-This project implements a fire and gas monitoring system with motor control using Verilog HDL. The system consists of several modules:
+This project implements a fire and gas monitoring system with motor control using Verilog . 
+The system consists of several modules:
 Monitoring Module: The top-level module that instantiates other modules and provides outputs for buzzer, LEDs, 7-segment display, and motor control.
 Final Module: Handles logic for buzzer, LEDs, and counter based on inputs from fire, gas, and IR sensors.
 Segment Display Module: Drives a 4-digit 7-segment display to show the count value.
 Segment Encoder Module: Encodes digit values to 7-segment display codes.
 Motor Module: Controls a motor based on the fire sensor input.
+
+
 Features
 Monitors fire, gas, and IR sensor inputs
 Drives a buzzer and LEDs based on sensor inputs
