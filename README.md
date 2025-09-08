@@ -1,4 +1,5 @@
-Overview
+Overview this project is implemented in edge artix 7a with vivado software
+
 This project implements a fire and gas monitoring system with motor control using Verilog . 
 The system consists of several modules:
 Monitoring Module: The top-level module that instantiates other modules and provides outputs for buzzer, LEDs, 7-segment display, and motor control.
